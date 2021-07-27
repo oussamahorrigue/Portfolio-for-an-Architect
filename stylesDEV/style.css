@@ -62,23 +62,6 @@ p{
 .tile{
     position: relative;
 }
-#imglogo{
-    float:left;
-    margin-top: 10%;
-    padding-bottom: 15%;
-    width: 15em;
-    opacity: 100% !important;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-#details{
-    white-space: nowrap;
-    font-weight: lighter;
-    margin-top: 10%;
-    color: rgb(63, 63, 63);
-    line-height: 1.6;
-    font-size: 12.5;  
-}
 .panel{
     width: 100%;
 }
@@ -104,6 +87,23 @@ li{
         margin-top: 0%;
         margin-left: 17%;
     }
+    #details{
+        white-space: nowrap;
+        font-weight: lighter;
+        margin-top: 10%;
+        color: rgb(63, 63, 63);
+        line-height: 1.6;
+        font-size: 12.5;  
+    }
+    #imglogo{
+        float:left;
+        margin-top: 10%;
+        padding-bottom: 15%;
+        width: 15em;
+        opacity: 100% !important;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .text{
         margin: 0% 25% 0% 10%;
     }
@@ -114,8 +114,25 @@ li{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 80%;
-        margin: 9%;
+        width: 95%;
+        margin: 2%;
+    }
+    #details{
+        white-space: nowrap;
+        font-weight: lighter;
+        margin-top: 9%;
+        color: rgb(63, 63, 63);
+        line-height: 1.6;
+        font-size: 11;  
+    }
+    #imglogo{
+        float:left;
+        margin-top: 10%;
+        padding-bottom: 7%;
+        width: 13em;
+        opacity: 100% !important;
+        margin-left: 0%;
+        margin-right: 3%;
     }
     .text{
         margin: 0% 10% 0% 10%;
