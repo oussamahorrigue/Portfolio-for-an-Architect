@@ -1,0 +1,167 @@
+body{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+header{
+    font-family: 'Corbel';
+}
+article{
+    font-family: 'Corbel';
+}
+#name{
+    font-size:200%;
+}
+.navbar-toggler{
+    width: 16%;
+    padding: 0%;
+    border: none !important;
+    outline: none !important;
+}
+#menu{
+    margin: 0%;
+    width:50%;
+}
+#fullspan{
+    width: 100%;
+    font-family: 'Bahnschrift';
+}
+.heff p{
+    color:rgb(63, 63, 63,0);
+}
+.heff:hover p{
+    color:rgb(0,0,0,1);
+}
+.imgtile{
+    width: 100%;
+    opacity: 100%;
+}
+.heff:hover .imgtile{
+    opacity: 30%;
+}
+p{
+    text-align: center;
+    font-family: 'Corbel';
+    font-size: 15;
+}
+.hide{
+    display: none;
+}
+.centered {
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0%;
+    transform: translate(-50%, -50%);
+  }
+.tile{
+    position: relative;
+}
+#imglogo{
+    float:left;
+    margin-top: 10%;
+    padding-bottom: 15%;
+    width: 15em;
+    opacity: 100% !important;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#details{
+    white-space: nowrap;
+    font-weight: lighter;
+    margin-top: 10%;
+    color: rgb(63, 63, 63);
+    line-height: 1.6;
+    font-size: 12.5;  
+}
+.panel{
+    width: 100%;
+}
+.arrL{
+    width: 5%;
+}
+.arrR{
+    width: 5%;
+    float: right;
+}
+li a{
+    color: rgb(132, 133, 133) !important;
+}
+li{
+    color: rgb(132, 133, 133) !important;
+}
+@media (orientation: landscape) {
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 17%;
+    }
+    .text{
+        margin: 0% 25% 0% 10%;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: 9%;
+    }
+    .text{
+        margin: 0% 10% 0% 10%;
+    }
+  }
+.frame{
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    border: none;
+    outline:none;
+    width: 100%;
+}
+.frame:focus {
+    outline: none;
+}
+.pic{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.toright{
+    float:right;
+}
+h1{
+    text-transform: uppercase;
+    padding-top: 4.2%;
+    margin-left:10%;
+    margin-right:25%;
+    line-height: 1.75 !important;
+    font-size: 18 !important;
+    font-family: 'Corbel';
+}
+.desc
+{
+    padding-top: 7%
+}
+.op
+{
+    padding-top: 5%;
+}
+.text
+{
+    text-align: justify;
+    line-height: 2;
+    text-justify: inter-word;
+    font-size: 12.5;
+    font-family: 'Corbel';
+}
