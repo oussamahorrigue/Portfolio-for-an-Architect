@@ -28,7 +28,7 @@ article{
 }
 #fullspan{
     width: 100%;
-    font-family: 'Bahnschrift';
+    font-family: 'Bahnschrift', 'Helvetica';
 }
 .heff p{
     color:rgb(63, 63, 63,0);
