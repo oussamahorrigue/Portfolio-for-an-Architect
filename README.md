@@ -1,1 +1,0 @@
-# kuchtavr6.github.io

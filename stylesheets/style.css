@@ -1,0 +1,310 @@
+@media (orientation: landscape) {
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 17%;
+    }
+    #details{
+        white-space: nowrap;
+        font-weight: lighter;
+        margin-top: 10%;
+        color: rgb(0, 0, 0);
+        line-height: 1.6;
+        font-size: 12.5;  
+    }
+    #imglogo{
+        float:left;
+        margin-top: 10%;
+        padding-bottom: 15%;
+        width: 15em;
+        opacity: 100% !important;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .text{
+        margin: 0% 25% 0% 10%;
+    }
+    #prof{
+        width:83%;
+        margin-left: 28%;
+    }
+    #aboutR{
+        text-align: left !important;
+        padding: 2% 7% 2% 7%;
+        font-size: 12;
+    }
+    #aboutL{
+        text-align: left !important;
+        margin: 5.8% 0% 2% 12.7%;
+        font-size: 12;
+    }
+    .edu{
+        border-collapse:initial; 
+        width: 70%;
+        margin: 1% 7% 2% 3%;
+    }
+    #skills{
+        margin-top: 1%;
+        width: 75%;
+    }
+    #floatingbutton{
+        display: none;
+    }
+    .tile{
+        padding-bottom: 2%;
+        position: relative;
+    }
+    .indent{
+        line-height: 2;
+        text-align: left !important;
+        font-size: 12;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        margin: 2%;
+    }
+    #prof{
+        width: 45%;
+        margin-left: 17.5%;
+    }
+    #details{
+        white-space: nowrap;
+        font-weight: lighter;
+        margin-top: 9%;
+        color: rgb(0, 0, 0);
+        line-height: 1.6;
+        font-size: 11;  
+    }
+    #imglogo{
+        float:left;
+        margin-top: 10%;
+        padding-bottom: 7%;
+        width: 13em;
+        opacity: 100% !important;
+        margin-left: 0%;
+        margin-right: 3%;
+    }
+    .text{
+        margin: 0% 10% 0% 10%;
+    }
+    #aboutR{
+        text-align: left !important;
+        padding: 2% 1% 2% 1%;
+        font-size: 12;
+    }
+    #aboutL{
+        text-align: left !important;
+        padding: 2.5% 1% 2% 1%;
+        font-size: 12;
+    }
+    .edu{
+        border-collapse:initial; 
+        width: 100%;
+        margin: 1% 7% 2% 7%;
+    }
+    #skills{
+        margin-top: 2%;
+        width: 100%;
+    }
+    #floatingbutton{
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        text-align: center;
+        bottom: 0%;
+        width: 100%;
+        padding-bottom: 1%;
+    }
+    #floatingbutton a{
+        text-decoration: none;
+        color:rgb(134, 134, 134);
+    }
+    .tile{
+        padding-bottom: 4%;
+        position: relative;
+    }
+    .indent{
+        line-height: 2;
+        text-align: left !important;
+        font-size: 12;
+        margin: 0% 3% 0% 8%;
+    }
+    .disable{
+        display: none !important;
+    }
+  }
+
+/* basic semantic elements */
+body{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+header{
+    font-family: 'Corbel';
+}
+article{
+    font-family: 'Corbel';
+}
+td{
+    vertical-align: top;
+}
+p{
+    text-align: center;
+    font-family: 'Corbel';
+    font-size: 15;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+}
+table{
+    line-height: 1.6;
+}
+h1{
+    text-transform: uppercase;
+    padding-top: 4.2%;
+    margin-left:10%;
+    margin-right:25%;
+    line-height: 1.75 !important;
+    font-size: 18 !important;
+    font-family: 'Corbel';
+}
+li a{
+    color: rgb(132, 133, 133) !important;
+}
+li{
+    color: rgb(132, 133, 133) !important;
+}
+
+/* shared */
+#maincontent{
+    position: relative;
+    min-height: 100vh;
+}
+#maincwrapper{
+    padding-bottom: 4rem;
+}
+#fullspan{
+    width: 100%;
+    font-family: 'Bahnschrift', 'Helvetica';
+}
+.hide{
+    display: none;
+}
+.toright{
+    float:right;
+}
+
+/* header */
+.navbar-toggler{
+    width: 16%;
+    padding: 0%;
+    border: none !important;
+    outline: none !important;
+}
+#menu{
+    margin: 0%;
+    width:50%;
+}
+.links{
+    margin-top: 6%;
+    margin-right: 6%;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+}
+.links a:hover{
+    color:rgb(173, 173, 173);
+}
+
+/* gallery */
+.heff p{
+    color:rgb(63, 63, 63,0);
+}
+.heff:hover p{
+    color:rgb(0,0,0,1);
+}
+.imgtile{
+    width: 100%;
+    opacity: 100%;
+}
+.heff:hover .imgtile{
+    opacity: 30%;
+}
+.centered {
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0%;
+    transform: translate(-50%, -50%);
+}
+
+/* projects */
+.panel{
+    width: 100%;
+}
+.arrL{
+    width: 5%;
+}
+.arrR{
+    width: 5%;
+    float: right;
+}
+.frame{
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    border: none;
+    outline:none;
+    width: 100%;
+}
+.frame:focus {
+    outline: none;
+}
+.pic{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.desc
+{
+    padding-top: 7%
+}
+.op
+{
+    padding-top: 5%;
+}
+.text
+{
+    text-align: justify;
+    line-height: 2;
+    text-justify: inter-word;
+    font-size: 12.5;
+    font-family: 'Corbel';
+}
+
+
+/* about me */
+.subtr{
+    text-indent: 5%;
+}
+.gray{
+    color:rgb(134, 134, 134);
+}

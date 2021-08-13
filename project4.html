@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aleksandra Kuchta</title>
-    <link rel="stylesheet" href="stylesDEV/reset.css" type="text/css" />
-    <link rel="stylesheet" href="stylesDEV/style.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/reset.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <script src="scriptsDEV/layoutA.js" defer></script>
+    <script src="script.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -24,77 +24,89 @@
 
 <body>
     <div class="container-fluid p-0 m-0 w-100 d-inline">
-        <header>
-            <div class="row p-0 m-0">
-                <div class="col-md-12 p-0 m-0">
-                    <nav class="navbar  navbar-dark navbar-expand-sm navbar-dark">
-                        <div class="row p-0 m-0" id="fullspan">
-                            <div class="col-md-4">
-                                <div id="logo">
-                                    <a href="index.html"><img src="icons/Logo.png" id="imglogo"></a>
+        <div id="maincontent">
+            <div id="maincwrapper">
+                <header>
+                    <div class="row p-0 m-0">
+                        <div class="col-md-12 p-0 m-0">
+                            <div class="row p-0 m-0" id="fullspan">
+                                <div class="col-md-4">
+                                    <div id="logo">
+                                        <a href="index.html"><img src="images/Logo.png" alt="Aleksandra Kuchta"
+                                                id="imglogo" alt="Aleksandra Kuchta"></a>
+                                    </div>
+                                    <div id="details">
+                                        Part 1 Architectural Assistant <br>
+                                        kuchta.aleks@gmail.com <br>
+                                        07534 857497 <br>
+                                        London
+                                    </div>
                                 </div>
-                                <div id="details">
-                                    Part 1 Architectural Assistant <br>
-                                    kuchta.aleks@gmail.com <br>
-                                    07534 857497 <br>
-                                    London
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="toright">
-                                    <div>
-                                        <ul class="navbar-nav ml-auto">
-                                            <li class="nav-item active">
-                                                <a class="nav-link float-right heff" href="index.html"> GALLERY
-                                                    &nbsp;&nbsp;<span class="sr-only">(current)</span></a>
-                                            </li>
-                                            <li class="nav-item active">
-                                                <a class="nav-link float-right heff d-none" href="aboutme.html"> ABOUT
-                                                    ME<span class="sr-only">(current)</span></a>
-                                            </li>
-                                        </ul>
+                                <div class="col-md-8">
+                                    <div class="toright links">
+                                        <a class="disable d-none" href="aboutme.html"> ABOUT&nbsp;ME &#8203;</a>
+                                        <a class="disable" href="index.html"> GALLERY</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </nav>
+                    </div>
+                </header>
+                <div class="row p-0 m-0 pb-5">
+                    <div class="col-md-8">
+
+                        <div class="gallery" id="6_png_Project4_2"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h1>The art foundation</h1>
+                        <p class="text desc">
+                            <b>Year&nbsp;&nbsp;:</b>&nbsp;&nbsp;2019<br>
+                            <b>Leading tutor&nbsp;&nbsp;:</b>&nbsp;&nbsp;Jillian Jones, Ewan Stone & David Howarth
+                            <br>
+                            <b>Institution&nbsp;&nbsp;:</b>&nbsp;&nbsp;London Metropolitan University
+                        </p>
+                        <p class="text op" id="2">
+                            The project explored the proposal for the art foundation in Mayfair, London. The space
+                            privately
+                            owned by art collector was designed to display and celebrate digital art. It focuses on
+                            the
+                            relationship between private and public elements of the building, to provide both:
+                            spaces for an
+                            art collector and his offices as well as exhibition rooms available for visitors. The
+                            proposal
+                            features a sequence of sculptural staircases in the central location which create an
+                            experience
+                            of the journey and enforces the order of exploration on each floor. Moreover, the
+                            location of
+                            the windows on the facade responds to the landing spots in order to generate unique
+                            viewpoints.
+                        </p>
+                        <p class="text op hide" id="6">
+                            The main entrance to the building, as well as a detailed facade, overlook narrow and
+                            busy Avery
+                            Row. The facade overlooking Brook's Mews is a solid stone wall that interrupts the
+                            rhythm of
+                            elevations on this street. The corner of the triangular site was cut off on the ground
+                            floor to
+                            provide easy access. Digital art exhibition room requires an understanding of how art
+                            and space
+                            can affect multiple human senses. The design is focused on spatial rooms with good
+                            acoustics and
+                            relatively no daylight access to provide the best experience for viewers. The project is
+                            developed around the strong contrast between lightness and darkness.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </header>
-
-        <body>
-            <div class="row p-0 m-0 pb-5">
-                <div class="col-md-8">
-
-                    <div class="gallery" id="6_png_Project4_2"></div>
-                </div>
-                <div class="col-md-4">
-                    <h1>The art foundation</h1>
-                    <p class="text desc">
-                        <b>Year&nbsp;&nbsp;:</b>&nbsp;&nbsp;2019<br>
-                        <b>Leading tutor&nbsp;&nbsp;:</b>&nbsp;&nbsp;Jillian Jones, Ewan Stone & David Howarth <br>
-                        <b>Institution&nbsp;&nbsp;:</b>&nbsp;&nbsp;London Metropolitan University
-                    </p>
-                    <p class="text op" id="2">
-                        The project explored the proposal for the art foundation in Mayfair, London. The space privately
-                        owned by art collector was designed to display and celebrate digital art. It focuses on the
-                        relationship between private and public elements of the building, to provide both: spaces for an
-                        art collector and his offices as well as exhibition rooms available for visitors. The proposal
-                        features a sequence of sculptural staircases in the central location which create an experience
-                        of the journey and enforces the order of exploration on each floor. Moreover, the location of
-                        the windows on the facade responds to the landing spots in order to generate unique viewpoints.
-                    </p>
-                    <p class="text op hide" id="6">
-                        The main entrance to the building, as well as a detailed facade, overlook narrow and busy Avery
-                        Row. The facade overlooking Brook's Mews is a solid stone wall that interrupts the rhythm of
-                        elevations on this street. The corner of the triangular site was cut off on the ground floor to
-                        provide easy access. Digital art exhibition room requires an understanding of how art and space
-                        can affect multiple human senses. The design is focused on spatial rooms with good acoustics and
-                        relatively no daylight access to provide the best experience for viewers. The project is
-                        developed around the strong contrast between lightness and darkness.
-                    </p>
-                </div>
-            </div>
-        </body>
+            <footer>
+                <p class="gray">
+                    © Aleksandra Kuchta 2021
+                </p>
+            </footer>
+            <div id="floatingbutton"><a href="aboutme.html" class="d-none">ABOUT ME &#8203; &#8203; &#8203;</a><a
+                    href="index.html">GALLERY</a></div>
+        </div>
+    </div>
+</body>
 
 </html>

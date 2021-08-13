@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aleksandra Kuchta</title>
-    <link rel="stylesheet" href="stylesDEV/reset.css" type="text/css" />
-    <link rel="stylesheet" href="stylesDEV/style.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/reset.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <script src="scriptsDEV/layoutA.js" defer></script>
+    <script src="script.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -24,95 +24,108 @@
 
 <body>
     <div class="container-fluid p-0 m-0 w-100 d-inline">
-        <header>
-            <div class="row p-0 m-0">
-                <div class="col-md-12 p-0 m-0">
-                    <nav class="navbar  navbar-dark navbar-expand-sm navbar-dark">
-                        <div class="row p-0 m-0" id="fullspan">
-                            <div class="col-md-4">
-                                <div id="logo">
-                                    <a href="index.html"><img src="icons/Logo.png" id="imglogo"></a>
+        <div id="maincontent">
+            <div id="maincwrapper">
+                <header>
+                    <div class="row p-0 m-0">
+                        <div class="col-md-12 p-0 m-0">
+                            <div class="row p-0 m-0" id="fullspan">
+                                <div class="col-md-4">
+                                    <div id="logo">
+                                        <a href="index.html"><img src="images/Logo.png" alt="Aleksandra Kuchta"
+                                                id="imglogo" alt="Aleksandra Kuchta"></a>
+                                    </div>
+                                    <div id="details">
+                                        Part 1 Architectural Assistant <br>
+                                        kuchta.aleks@gmail.com <br>
+                                        07534 857497 <br>
+                                        London
+                                    </div>
                                 </div>
-                                <div id="details">
-                                    Part 1 Architectural Assistant <br>
-                                    kuchta.aleks@gmail.com <br>
-                                    07534 857497 <br>
-                                    London
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="toright">
-                                    <div>
-                                        <ul class="navbar-nav ml-auto">
-                                            <li class="nav-item active">
-                                                <a class="nav-link float-right heff" href="index.html"> GALLERY
-                                                    &nbsp;&nbsp;<span class="sr-only">(current)</span></a>
-                                            </li>
-                                            <li class="nav-item active">
-                                                <a class="nav-link float-right heff d-none" href="aboutme.html"> ABOUT
-                                                    ME<span class="sr-only">(current)</span></a>
-                                            </li>
-                                        </ul>
+                                <div class="col-md-8">
+                                    <div class="toright links">
+                                        <a class="disable d-none" href="aboutme.html"> ABOUT&nbsp;ME &#8203;</a>
+                                        <a class="disable" href="index.html"> GALLERY</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </nav>
+                    </div>
+                </header>
+                <div class="row p-0 m-0 pb-5">
+                    <div class="col-md-8">
+
+                        <div class="gallery" id="13_png_Project2_4"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h1>A House Between Two Trees: <br>
+                            A self-build project in Hackney.</h1>
+                        <p class="text desc">
+                            <b>Year&nbsp;&nbsp;:</b>&nbsp;&nbsp;2021<br>
+                            <b>Leading tutor&nbsp;&nbsp;:</b>&nbsp;&nbsp;David Grandorge & Ted Swift<br>
+                            <b>Institution&nbsp;&nbsp;:</b>&nbsp;&nbsp;London Metropolitan University
+                        </p>
+                        <p class="text op" id="2">
+                            Proposal for a self-build family house created in duet by Aleksandra Kuchta and Sam Newton.
+                            The
+                            site for the project is located on Balcorne Street, in London and it is a 6-meter wide
+                            elongated
+                            site with a tree on each end. The design focuses on the idea of rigorous simplification of
+                            the
+                            construction process to make it more accessible for the self-builder. The proposal follows
+                            the
+                            rhythm of existing terraced houses and offers a three-storey house with a similar footprint
+                            and
+                            aligned with the current street elevation.
+                        </p>
+                        <p class="text op hide" id="7">
+                            On the ground floor, you can see services being placed left and two bedrooms on the right,
+                            divided with a long corridor which leads straight from the main entrance to the garden.
+                            In-built
+                            wardrobes along the division wall act as additional structural support and help with
+                            sound-proofing. The design includes a reverse floor plan with bedrooms on the ground floor
+                            and
+                            living on the first floor. Long space provides sunlight from the south and a great view of
+                            the
+                            garden. Double height in the dining area and large glazing makes it feel spacious. With a
+                            sloping ceiling, we imaged the space as an artist studio. The low sill in the kitchen window
+                            becomes a perfect spot to sit and enjoy the morning sun. The mezzanine on the top floor
+                            designed
+                            as a study has access to the roof terrace. The room can be converted into a third bedroom in
+                            the
+                            future if necessary.
+                        </p>
+                        <p class="text op hide" id="10">
+                            In order to ensure the buildability potential of the proposal double stud wall has been
+                            introduced. This solution guarantees continuous insulation and airtightness. It also allows
+                            for
+                            an easy assembly process as all the elements can be easily erected and installed by three
+                            people. The spanning direction of the floor joists on each level as well as roof
+                            construction
+                            methodology supports the idea of simplified self-build design.
+                        </p>
+                        <p class="text op hide" id="13">
+                            Even though the building is taller compare to the adjacent terraced house it isn’t visible
+                            from
+                            the street as a balustrade of the balcony in front on the top floor seem to be the highest
+                            point
+                            of the building. We made sure that the pitched roof fits perfectly within the existing
+                            chimney
+                            stacks. The balcony provides a view over the roofs of terraced houses. Visible from the side
+                            elevation is a solid wall without any windows and enhance the shape of the proposed design.
+                            Detailed drawings allow estimating materials cost for the self-build project.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </header>
-
-        <body>
-            <div class="row p-0 m-0 pb-5">
-                <div class="col-md-8">
-
-                    <div class="gallery" id="13_png_Project2_4"></div>
-                </div>
-                <div class="col-md-4">
-                    <h1>A House Between Two Trees: <br>
-                        A self-build project in Hackney.</h1>
-                    <p class="text desc">
-                        <b>Year&nbsp;&nbsp;:</b>&nbsp;&nbsp;2021<br>
-                        <b>Leading tutor&nbsp;&nbsp;:</b>&nbsp;&nbsp;David Grandorge & Ted Swift<br>
-                        <b>Institution&nbsp;&nbsp;:</b>&nbsp;&nbsp;London Metropolitan University
-                    </p>
-                    <p class="text op" id="2">
-                        Proposal for a self-build family house created in duet by Aleksandra Kuchta and Sam Newton. The
-                        site for the project is located on Balcorne Street, in London and it is a 6-meter wide elongated
-                        site with a tree on each end. The design focuses on the idea of rigorous simplification of the
-                        construction process to make it more accessible for the self-builder. The proposal follows the
-                        rhythm of existing terraced houses and offers a three-storey house with a similar footprint and
-                        aligned with the current street elevation.
-                    </p>
-                    <p class="text op hide" id="7">
-                        On the ground floor, you can see services being placed left and two bedrooms on the right,
-                        divided with a long corridor which leads straight from the main entrance to the garden. In-built
-                        wardrobes along the division wall act as additional structural support and help with
-                        sound-proofing. The design includes a reverse floor plan with bedrooms on the ground floor and
-                        living on the first floor. Long space provides sunlight from the south and a great view of the
-                        garden. Double height in the dining area and large glazing makes it feel spacious. With a
-                        sloping ceiling, we imaged the space as an artist studio. The low sill in the kitchen window
-                        becomes a perfect spot to sit and enjoy the morning sun. The mezzanine on the top floor designed
-                        as a study has access to the roof terrace. The room can be converted into a third bedroom in the
-                        future if necessary.
-                    </p>
-                    <p class="text op hide" id="10">
-                        In order to ensure the buildability potential of the proposal double stud wall has been
-                        introduced. This solution guarantees continuous insulation and airtightness. It also allows for
-                        an easy assembly process as all the elements can be easily erected and installed by three
-                        people. The spanning direction of the floor joists on each level as well as roof construction
-                        methodology supports the idea of simplified self-build design.
-                    </p>
-                    <p class="text op hide" id="13">
-                        Even though the building is taller compare to the adjacent terraced house it isn’t visible from
-                        the street as a balustrade of the balcony in front on the top floor seem to be the highest point
-                        of the building. We made sure that the pitched roof fits perfectly within the existing chimney
-                        stacks. The balcony provides a view over the roofs of terraced houses. Visible from the side
-                        elevation is a solid wall without any windows and enhance the shape of the proposed design.
-                        Detailed drawings allow estimating materials cost for the self-build project.
-                    </p>
-                </div>
-            </div>
-        </body>
-
+            <footer>
+                <p class="gray">
+                    © Aleksandra Kuchta 2021
+                </p>
+            </footer>
+            <div id="floatingbutton"><a href="aboutme.html" class="d-none">ABOUT ME &#8203; &#8203; &#8203;</a><a
+                    href="index.html">GALLERY</a></div>
+        </div>
+    </div>
+</body>
 </html>
